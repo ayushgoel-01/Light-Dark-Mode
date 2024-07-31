@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body.dark{
+    background-color: rgba(11, 11, 11, 0.809);
+    color: whitesmoke;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.h1-top{
+    padding-top: 20px;
+    color:rgb(10, 166, 137);
+    font-size: 45px;
+}
+.h1-middle{
+    margin-bottom: 50px;
+}
+.container{
+    border: 1px solid black;
+    height: 100px;
+    width: 1200px;
+    align-content: center;
+    padding-left: 16%;
+    background-color: white;
+    color: black;
+}
+.container.dark{
+    background-color: rgba(11, 11, 11, 0.809);
+    color: whitesmoke;
+}
+label{
+    font-size: 25px;
+    cursor: pointer;
+}
+#full-dark-mode , #contained-dark-mode{
+    height: 20px;
+    width: 60px;
+    cursor: pointer;
+}
